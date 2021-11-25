@@ -1,0 +1,33 @@
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 1000px;
+}
+td{
+border: 1px solid black;
+padding: 10px;
+}
+.bg {
+   background-color: lightgray; 
+}
+.row-color td {
+    background-color: burlywood;
+    
+
+}
+.row-color2{
+    background-color: rgb(155, 184, 240);
+}
+.row-color3{
+    background-color:lightgoldenrodyellow;
+}
+.row-color4{
+    background-color: lightpink;
+}
+ .none-border tr, .none-border td,
+ .none-border th{
+    border: none;
+    border-bottom: olive 1px solid;
+}
