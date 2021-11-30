@@ -197,10 +197,10 @@
         </h4>
         <!-- Forms -->
         <form action="https://mail.google.com/mail/u/1/#inbox" name="simple-form" autocomplete="on" novalidate></form>
-        <form action=" https://mail.google.com/mail/u/1/#inbox" name="simple-form1" autocomplete="on"">
+        <form action=" https://mail.google.com/mail/u/1/#inbox" name="simple-form1" autocomplete="on">
 <fieldset>
     <legend> Simple form</legend>
-    <input type=" text">
+    <input type="text">
             <br>
             <fieldset>
                 <legend>press button</legend>
@@ -224,11 +224,38 @@
                 <br>
                 <br>
                 <label for="comment"> ваш комментарий</label>
-                <textarea  id="comment" cols="30" rows="10" autofocus></textarea>
+                <textarea id="comment" cols="30" rows="10"></textarea>
+                <br>
+                <textarea cols="30" rows="10" disabled></textarea>
+                <textarea cols="30" rows="10" readonly>Ти не можеш нічого міняти</textarea>
+                <textarea cols="30" rows="10" maxlength="5"> обмежує кількість введених символів</textarea>
+                <textarea cols="30" rows="10" placeholder="Текст зникне, коли почнеш писати"></textarea>
+                <textarea cols="30" rows="10" required> поле має бути заповнене</textarea>
             </fieldset>
         </form>
+        <!-- Select with optgroup -->
+        <select multiple>
+            <option value="Front-end">Front-end</option>
+            <option value="Back-end">Back-end</option>
+            <option value="Back-end">-end</option>
+        </select>
         <br>
-    
+        <select>
+            <optgroup label="List">
+                <option value="Front-end">Front-end</option>
+                <option value="Back-end">Back-end</option>
+            <optgroup label="List2">
+               <option value="Front-end">Front-end</option>
+                <option value="Back-end">Back-end</option>
+            </optgroup>
+        </select>
+        <br>
+        <select>
+            <option value="1" label="1!">Front</option>
+            <option value="2" selected>selected</option>
+            <option value="3" disabled>disabled</option>
+        </select>
+
 </body>
 
 
