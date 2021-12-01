@@ -163,7 +163,7 @@
         <a href="mailto:irynapoizdnyk@gmail.com">Send a message</a>
         <a href="#go-to-lorem">Go to Lorem</a>
         <hr>
-        <button type="button" autofocus> selected button</button>
+        <button type="button" > selected button</button>
         <br>
         <button type="submit">Применить</button>
         <br>
@@ -347,6 +347,54 @@
 <br>
 <input type="checkbox" value="opt3">
 <br>
+<!-- Контейнер для формы -->
+<form action="#">
+<fieldset>
+   <legend>Анкета пользователя</legend>
+   <label for="name">Введите имя</label>
+   <input type="text" id="name" placeholder="Например, Иван" required autocomplete="on" name="name" autofocus spellcheck="true"   > 
+   <br>
+   <label for="tel">Номер телефона</label>
+   <input type="tel" placeholder="+3 8097 2255" spellcheck="true" id="tel">
+   <br>
+   <label for="user-email"> Введите email</label>
+   <input type="email" name="email" id="user-email" placeholder="tatyana@gmail.com" required spellcheck="false">
+   <br>
+   <label>Ваше любимое блюдо</label>
+   
+   <input type="checkbox" id="pizza" name="food">
+   <label for="pizza">pizza</label>
+
+   <input type="checkbox" id="potatos" name="food">
+   <label for="potatos">potatos</label>
+
+   <input type="checkbox" id="cake" name="food">
+   <label for="cake">cake</label>
+   <br>
+   <label>Блюдо, которое ты не любиш</label>
+   
+   <label for="pizza">pizza</label>
+   <input type="radio" id="pizza1" name="food">
+
+   <label for="potatos">potatos</label>
+   <input type="radio" id="potatos1" name="food">
+
+   <label for="cake">cake</label>
+   <input type="radio" id="cake1" name="food">
+   <br>
+   <label for="date">Введите дату совоего рождения</label>
+   <input type="date" name="date of birstday" id="date">
+   <br>
+   <input type="file" name="user-foto" multiple>
+   <br>
+   <label>Если вам у нас понравилось сдвиньте ползунок в право</label>
+   <input type="range">
+   <br><br>
+
+   <input type="submit" value="Отправить">
+   </fieldset>
+</form>
+
 
 </body>
 
